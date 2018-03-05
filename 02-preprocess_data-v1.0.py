@@ -19,12 +19,9 @@ np.random.seed(1337) # for reproducibility
 
 outputFilePath = 'freebase-relations.pkl.gz'
 
-folder_files = "/home/fabricio/Documentos/Datasets/data_LI_2016/"
-#"/home/fabricio/Documentos/Datasets/SemEval-2(2010)_Task-8/"
+folder_files = "/Datasets/data_LI_2016/"
 filenames = [folder_files+"clean_train.txt", folder_files+"clean_test.txt"]
-pretrained_word_embedding = '/home/fabricio/Documentos/Datasets/glove.6B/word2vec.6B.100d.txt'
-#'/home/fabricio/Documentos/Datasets/glove.6B/glove.6B.100d.txt'
-# or '/home/fabricio/Documentos/Datasets/txt8_w2v/text8_vec_100.txt'
+pretrained_word_embedding = '/Datasets/word2vec.6B.100d.txt'
 max_num_words = 250000 # max_num_words palavras mais frequentes
 maxSentenceLen = 50
    
