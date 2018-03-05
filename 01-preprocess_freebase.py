@@ -13,7 +13,7 @@ Preprocess  [Lin et al., 2016] dataset
 
 
 
-folder_files = "/home/fabricio/Documentos/Datasets/data_LI_2016/"
+folder_files = "Datasets/data_LI_2016/"
 filenames = [folder_files+"test.txt"] #, folder_files+"test.txt"]
 outputFilePath = folder_files + "clean_test.txt" #+ str(filenames)
 
