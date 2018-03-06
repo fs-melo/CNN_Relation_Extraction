@@ -55,23 +55,3 @@ for row in x:
         linha = linha +str(elem)
     thefile.write("%s\n" % linha)
 print("Processo concluído!\nArquivo criado:\n%s" % thefile.name)
-
-#
-#data=np.empty(shape=[0, 4],dtype=str)
-#for row in x:
-#    a=np.empty(shape=[0, 4],dtype=str)
-#    for elem in row:
-#        a=np.append(a,elem)
-#    data=np.append(data,a.reshape(1,4),axis=0)
-#
-##del combined
-##rel pos1 pos2 sentence
-#x = np.asarray(x)
-#relation = x[:,4]
-#e1_name = x[:,2]
-#e2_name = x[:,3]
-#sentences = x[:,5]
-#del x
-#with open("out.txt", 'w') as f:
-#    f.write(str(relation)+"\t"+str(e1_name)+"\t"+str(e2_name)+"\t"+str(sentences))
-##process_freebase()
