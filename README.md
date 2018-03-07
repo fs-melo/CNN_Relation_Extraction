@@ -14,3 +14,10 @@ The 01-preprocess_freebase.py file format [Lin et al., 2016](https://github.com/
 [Zeng et al., 2014] Daojian Zeng, Kang Liu, Siwei Lai, Guangyou Zhou, and Jun Zhao. "Relation classification via convolutional deep neural network."
 
 [Zeng et al.,2015] Daojian Zeng,Kang Liu,Yubo Chen,and Jun Zhao. "Distant supervision for relation extraction via piecewise convolutional neural networks."
+
+# Environment settings
+We used Python 3.5, Keras and TensorFlow, in Anaconda plataform with Ubuntu 16.04.
+We recommend the Virtualenv installation.
+Before installing Keras, please install one of its backend engines: TensorFlow, Theano, or CNTK. We recommend the TensorFlow backend.
+01. Install [TensorFlow](https://www.tensorflow.org/install/)
+02. Install [Keras](https://keras.io/#installation)
