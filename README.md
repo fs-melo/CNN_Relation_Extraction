@@ -17,6 +17,7 @@ The 01-preprocess_freebase.py file format [Lin et al., 2016](https://github.com/
 
 # Environment settings
 We used Python 3.5, Keras and TensorFlow, in Anaconda plataform with Ubuntu 16.04.
+Keras with Python 3.6 not worked for me.
 
 We recommend the Virtualenv installation.
 
