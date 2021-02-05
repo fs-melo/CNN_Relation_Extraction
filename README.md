@@ -1,4 +1,6 @@
 # CNN_Relation_Extraction
+It contains the source code of my master's dissertation on the implementation of Extraction of relationships from unstructured data based on deep learning and distant supervision.
+
 In this project, we provide our implementations of a low dimensional CNN for Relation_Extraction based in [deeplearning4nlp-tutorial](https://github.com/UKPLab/deeplearning4nlp-tutorial/tree/master/2017-07_Seminar/Session%203%20-%20Relation%20CNN/code), however we use dataset created by distant supervision.
 
 The CNN architecture was implemented was inspired by [Nguyen et al. 2015] and [Zeng et al., 2014].
