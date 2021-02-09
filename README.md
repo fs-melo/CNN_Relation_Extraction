@@ -3,8 +3,7 @@ It contains the source code of my master's dissertation on the implementation of
 
 Here, our implementations of a low dimensional Convolutional Neural Network (CNN) for Relation_Extraction based in [deeplearning4nlp-tutorial](https://github.com/UKPLab/deeplearning4nlp-tutorial/tree/master/2017-07_Seminar/Session%203%20-%20Relation%20CNN/code) are available, however was used a dataset created by distant supervision.
 
-This work presents an information extraction technique for extracting relation with CNN trained for the recognition of sentence patterns represented
- on low-dimension word2vec and position embeddings (of Named Entity).
+This work presents an information extraction technique for extracting relation with CNN trained for the recognition of sentence patterns represented on low-dimension word2vec and position embeddings (of Named Entity).
 
 ![What is this](image/my-model-cnn.png)
 
