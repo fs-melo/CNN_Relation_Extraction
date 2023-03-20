@@ -53,11 +53,11 @@ max_sequence_length = sentence_train.shape[1]
 print("Loading embeddings")
 embedding_matrix = np.load(open('embeddings.npz', 'rb'))
 
-# O pulo do gato !!!
+# The great trick !!!
 Y = np.argmax(yLabel_train,axis=-1)
 print("Training the model")
 
-  # create model
+# create model
 words_input = Input(shape=(max_sequence_length,), dtype='int32', name='words_input')
 words = Embedding(embedding_matrix.shape[0], embedding_matrix.shape[1], 
                   weights=[embedding_matrix], trainable=False)(words_input)

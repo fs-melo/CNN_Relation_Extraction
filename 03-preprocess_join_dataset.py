@@ -41,7 +41,7 @@ del positionTrain1, positionTest1
 positionMatrix2 = np.concatenate((positionTrain2, positionTest2), axis=0)
 del positionTrain2, positionTest2
 
-# O pulo do gato !!!
+# The great trick !!!
 Y = np.argmax(yLabel,axis=-1)
 unique, counts = np.unique(Y, return_counts=True)
 """counts: 
@@ -52,7 +52,7 @@ unique, counts = np.unique(Y, return_counts=True)
       7    169    309      4     22  78762     10    697      7     59
       1     20    203     33      6    485      3    707]
 """
-#define freq mínima por classe
+# Define min frequency per class
 freq_min = 20
 del_index = np.where( counts < freq_min )
 clean_labels = np.delete(unique,del_index)

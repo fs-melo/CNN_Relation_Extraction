@@ -46,7 +46,6 @@ def create_embeddings(filenames=filenames, pretrained_word_embedding=pretrained_
         mapLabels[word] = l
     with open('mapLabels.json', 'w') as f:
         f.write(json.dumps(mapLabels))
-    #tokenizer = Tokenizer(filters='\t\n')
     tokenizer = Tokenizer(num_words = max_num_words, filters='\t\n')
     tokenizer.fit_on_texts(sentences)
     word_index = tokenizer.word_index
@@ -131,9 +130,6 @@ def createMatrices(file, word2Idx, mapLabels, maxSentenceLen=100):
         pos2 = splits[2]
         sentence = splits[3].lower()
         tokens = sentence.split(" ")
-        
-       
-      
         
         tokenIds = np.zeros(maxSentenceLen)
         positionValues1 = np.zeros(maxSentenceLen)
